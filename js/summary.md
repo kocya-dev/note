@@ -1,0 +1,46 @@
+# Web開発
+
+## モダンWeb開発環境
+
+### ここ数年の開発のトレンドについて  
+https://www.nri-digital.jp/tech/20220216-8262/  
+https://wakka-inc.com/blog/1937/  
+https://qiita.com/simezi9/items/d5ace310958be3b715aa  
+https://ncdc.co.jp/columns/7187/  
+
+### JavaScriptの標準について
+https://www.tohoho-web.com/js/what.htm
+
+* ECMAScript5.1th Edition(ES5.1)
+  * IE11でもほぼ動作する
+* ECMAScript2015(ES6)
+  * IE11はほぼ不可。Chrome/Edge/FireFox/Safariはほぼ100%。
+* ECMAScript2016(ES7)
+* ECMAScript2017(ES8)
+  * FireFox15.2未満はOK
+* ECMAScript2018(ES9)
+  * FireFox15.2は一部未対応
+* ECMAScript2019(ES10)
+* ECMAScript2020(ES11)
+* ECMAScript2021(ES12)
+  * Chrome/Edgeはほぼ100%。
+* ECMAScript2022(ES13)
+  * Chrome/EdgeはRegExpのみ未対応部あり。
+* ECMAScript2023(ES14)
+
+各ブラウザの対応状況  
+https://kangax.github.io/compat-table/es6/    
+
+ES2015(ES6)に合わせる情報があるが、何がメリットか？慣例か？
+
+### 環境概略
+
+* js
+  * typescript
+    * --(eslint=静的解析/prettier=formatter)-->typescript
+      * --(Babel等でtranspile)--> js(ES6)
+        * --(webpackなどのbundler)--> 単一js
+* css
+  * sass 
+    * --(webpackなどのbundler)--> css
+      * --(webpackなどのbundler)--> js
