@@ -7,6 +7,7 @@ https://www.nri-digital.jp/tech/20220216-8262/
 https://wakka-inc.com/blog/1937/  
 https://qiita.com/simezi9/items/d5ace310958be3b715aa  
 https://ncdc.co.jp/columns/7187/  
+https://engineering.linecorp.com/ja/blog/uit-baseline-for-front-end-development-in-2022/  
 
 ### JavaScriptの標準について
 https://www.tohoho-web.com/js/what.htm
