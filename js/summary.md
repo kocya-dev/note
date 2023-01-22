@@ -45,3 +45,58 @@ ES2015(ES6)に合わせる情報があるが、何がメリットか？慣例か
   * sass 
     * --(webpackなどのbundler)--> css
       * --(webpackなどのbundler)--> js
+
+---
+
+## その他ツールチェーン
+
+---
+### Next.js
+Reactを用いたSSR機能を提供するフレームワーク。  
+描画は早いが、表示データが頻繁に更新されるアプリケーションには不向き。
+
+---
+### Redux
+アプリケーションの状態管理を担うライブラリ。  
+https://qiita.com/keitakn/items/7433c89ce52073e861a1  
+https://qiita.com/jabba/items/5ebea8d19809a4e0f8c6  
+https://qiita.com/kitagawamac/items/49a1f03445b19cf407b7  
+https://qiita.com/Statham/items/9f830dac5fee00deb9df  
+
+###  
+
+---
+## アーキテクチャ選定
+---
+### SPA vs MPA
+
+https://deliv.tech/2020/11/10/mpa-vs-spa/
+
+---
+## 環境構築例
+
+### その1
+Typescript + React + Webpack + Express  
+ESLint / Prettier / Jest / React Testing Library / Chakra UI  
+https://none-if-none-else-none.hatenablog.com/entry/2021/02/27/120000
+https://none-if-none-else-none.hatenablog.com/entry/2021/03/06/120000
+
+* Express
+  * サーバーサイドJavascript / Node.js のWebアプリケーションフレームワーク
+* ESLint
+  * Node.jsで動作するlinter(静的コード分析)
+* Prettie
+  * フォーマッタ
+* Jest
+  * 単体テストライブラリ。Typescript環境ではTS-Jestから利用する
+* React Testing Library
+  * ブラウザ環境を疑似的に再現するテストツール 
+* Chakra UI
+  * UIフレームワーク(https://chakra-ui.com/)
+
+### その2
+
+Vite + TypeScript + React
+https://ics.media/entry/210708/#contents-anchor-react  
+https://chaika.hatenablog.com/entry/2022/05/13/083000  
+

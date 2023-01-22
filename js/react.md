@@ -1,4 +1,28 @@
 # React
+
+# 環境構築
+```
+npx create-react-app <project name>
+or
+npm init react-app <project name>
+```
+```
+npm i create-react-app
+```
+することで、npxを使用せずとも済む。
+```
+create-react-app <project name>
+```
+※create-react-appはwebpackの設定も自動で行なわれる。    
+
+
+
+## npm / yarn について  
+https://qiita.com/mzmz__02/items/4ba43b69c8878a9ca99e  
+https://qiita.com/e99h2121/items/7e38e592dc45b7c0407d  
+
+
+
 ## 再レンダリング
 コンポーネントのproperty、ステート変化時、親コンポーネントの再レンダリングによって対象要素の再レンダリングがおこなわれる。
 
