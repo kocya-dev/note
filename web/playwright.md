@@ -69,6 +69,11 @@ codegenでブラウザを起動して基本操作を記録しつつ、
 npx playwright test --headed
 ```
 
+## コード
+* locaterで位置を特定する
+* assertionで検証する
+
+
 ---
 ## 参考
 

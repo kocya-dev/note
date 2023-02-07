@@ -1,0 +1,3 @@
+# TypeScript
+
+https://typescriptbook.jp/
