@@ -73,8 +73,85 @@ npx playwright test --headed
 * locaterで位置を特定する
 * assertionで検証する
 
+---
+## CI/CD
+
+CI GitHub Actions  
+https://playwright.dev/docs/ci-intro
+
+---
+## action
+### Text Input
+https://playwright.dev/docs/input#text-input
+```js
+// Text input
+await page.getByRole('textbox').fill('Peter');
+
+// Date input
+await page.getByLabel('Birth date').fill('2020-02-02');
+
+// Time input
+await page.getByLabel('Appointment time').fill('13:15');
+
+// Local datetime input
+await page.getByLabel('Local time').fill('2020-03-02T05:15')
+```
+### Mouse
+https://playwright.dev/docs/input#mouse-click
+```js
+// Generic click
+await page.getByRole('button').click();
+
+// Double click
+await page.getByText('Item').dblclick();
+
+// Right click
+await page.getByText('Item').click({ button: 'right' });
+
+// Shift + click
+await page.getByText('Item').click({ modifiers: ['Shift'] });
+
+// Hover over element
+await page.getByText('Item').hover();
+
+// Click the top left corner
+await page.getByText('Item').click({ position: { x: 0, y: 0} });
+```
+
+### Key  
+https://playwright.dev/docs/input#keys-and-shortcuts
+
+```js
+locator.type('入力文字列')
+
+// Type character by character
+await page.locator('#area').type('Hello World!');
+
+locator.press('キー名')
+
+// example
+await page.getByText('Submit').press('Enter');
+await page.locator('#name').press('Shift+A');
+```
+
+### Checkbox, Radio button
+https://playwright.dev/docs/input#checkboxes-and-radio-buttons
+
+### Select option
+https://playwright.dev/docs/input#select-options
+
+### Focus
+https://playwright.dev/docs/input#focus-element
+```js
+await page.getByLabel('Password').focus();
+```
 
 ---
 ## 参考
+
+Doc  
+https://playwright.dev/docs/intro  
+API  
+https://playwright.dev/docs/api/class-playwright  
 
 https://minerva.mamansoft.net/%F0%9F%93%98Articles/%F0%9F%93%983%E5%B9%B4%E7%9B%AE%E3%80%813%E5%9B%9E%E7%9B%AE%E3%81%AEPlaywright%E8%A8%98%E4%BA%8B%E3%82%92%E6%9B%B8%E3%81%8F
