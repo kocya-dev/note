@@ -16,6 +16,10 @@ create-react-app <project name>
 ※create-react-appはwebpackの設定も自動で行なわれる。    
 
 
+## VSCode拡張
+ES7+ React/Redux/React-Native snippets
+VSCode React Refactor
+
 
 ## npm / yarn について  
 https://qiita.com/mzmz__02/items/4ba43b69c8878a9ca99e  
