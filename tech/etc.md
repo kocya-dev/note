@@ -7,9 +7,11 @@
 * 情報まとめ
     * [AWSエンジニアロードマップ2023](https://qiita.com/KurokawaKouhei/items/3836802fc3a0286f668f)
     * [npm trends](https://npmtrends.com/)
+    * [Webサーバーアーキテクチャ進化論2023](https://blog.ojisan.io/server-architecture-2023/)
 * プロセス
     * [ユーザーストーリーマッピングとは？基本の進め方やおすすめのツールを紹介](https://aslead.nri.co.jp/products/miro/column/miro-user-story-mapping.html)
     * [大塚流フロントエンド開発の歩き方](https://zenn.dev/yumemi_inc/articles/walking-on-the-front-end?redirected=1)
 * AI
     * [【徹底解説】これからのエンジニアの必携スキル、プロンプトエンジニアリングの手引「Prompt Engineering Guide」を読んでまとめてみた](https://dev.classmethod.jp/articles/how-to-design-prompt-engineering/)
-
+* セキュリティ
+    * [パブリッククラウド特有の脅威の向き合い方](https://speakerdeck.com/lhazy/paburitukukuraudote-you-noxie-wei-noxiang-kihe-ifang)
