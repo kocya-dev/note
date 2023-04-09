@@ -1,5 +1,6 @@
 * 構成管理
     * [Bulletproof React](https://github.com/alan2207/bulletproof-react)
+    * [Node.js ベストプラクティス](https://github.com/goldbergyoni/nodebestpractices/blob/master/README.japanese.md)
 * 気になる記事
     * [［速報］マイクロソフト、自然言語で誰でもアプリケーション開発が可能になる「Copilot in Power Automate」「Copilot in Power Apps」発表](https://www.publickey1.jp/blog/23/_copilot_in_power_automatecopilot_in_power_apps.html)
 * ツール
