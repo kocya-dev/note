@@ -3,6 +3,7 @@
     * [Node.js ベストプラクティス](https://github.com/goldbergyoni/nodebestpractices/blob/master/README.japanese.md)
 * 気になる記事
     * [［速報］マイクロソフト、自然言語で誰でもアプリケーション開発が可能になる「Copilot in Power Automate」「Copilot in Power Apps」発表](https://www.publickey1.jp/blog/23/_copilot_in_power_automatecopilot_in_power_apps.html)
+    * [UIデザインに必須の16の論理ルール！ デザインは細部のちょっとした作り込みが使いやすさを決める](https://coliss.com/articles/build-websites/operation/work/16-ui-design-rules.html)
 * ツール
     * [Figma から React のコードを生成する！「Figma to HTML, CSS, React & more!」](https://www.gaji.jp/blog/2022/06/07/9983/)
 * リファクタ
