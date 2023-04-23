@@ -34,3 +34,7 @@ AWS SAM
 https://qiita.com/spring_i/items/e087905a82c40cf900a0
 
 https://nainaistar.hatenablog.com/archive/category/Playwright
+
+モダンなテストレベル設計（ユニットテスト～システムテスト等をどう設計するか）の原則
+https://goyoki.hatenablog.com/entry/2023/04/22/210640
+
