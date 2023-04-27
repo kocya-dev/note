@@ -1,0 +1,23 @@
+site_name: test doc name
+site_description: 'サイトの紹介'
+site_url: 'http://test'
+
+copyright: 'Copyright (c) 2023'
+
+docs_dir: docs
+theme: 'material'
+
+# Options
+#extra:
+#  palette:
+#    primary: 'Light Blue'
+#    accent: 'Orange'
+#  font:
+#    text: 'Roboto'
+#    code: 'Roboto Mono'
+    
+#markdown_extensions:
+#  - admonition
+#  - toc:
+#    permalink: '#'
+
