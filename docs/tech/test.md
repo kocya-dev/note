@@ -38,3 +38,5 @@ https://nainaistar.hatenablog.com/archive/category/Playwright
 モダンなテストレベル設計（ユニットテスト～システムテスト等をどう設計するか）の原則
 https://goyoki.hatenablog.com/entry/2023/04/22/210640
 
+Webフロントエンドにおける網羅的テストパターンガイド
+https://zenn.dev/silverbirder/articles/c3de04c9e6dd58
