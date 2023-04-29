@@ -46,6 +46,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>http://test/tmp/tmp/</loc>
+         <lastmod>2023-04-29</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>http://test/web/basic/</loc>
          <lastmod>2023-04-29</lastmod>
          <changefreq>daily</changefreq>
