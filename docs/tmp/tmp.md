@@ -24,7 +24,7 @@ graph TD;
 
 ## Draw.io
 
-![](sample.drawio)
+![](sample.drawio.png)
 
 ## mkdocsに必要なもの
 
