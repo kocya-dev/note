@@ -39,11 +39,12 @@ graph TD;
   pip install mdx_truly_sane_lists
   ```
 
-* Draw.io (うまくいかない)
+* Draw.io 
   ```
   pip install mkdocs-drawio-exporter
   ```
-  https://fereria.github.io/reincarnation_tech/10_Programming/99_Documentation/05_mkdocs_drawio/
+  https://fereria.github.io/reincarnation_tech/10_Programming/99_Documentation/05_mkdocs_drawio/  
+  drawio.png 型にconvertしてmarkdownから参照する必要あり。
 
 * PlantUML
   ```
