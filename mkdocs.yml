@@ -5,8 +5,25 @@ site_url: 'http://test'
 copyright: 'Copyright (c) 2023'
 
 docs_dir: docs
-theme: 'material'
-
+theme: 
+  name: 'material'
+  features:
+     # Anchor tracking
+     - navigation.tracking
+     # Instant load
+     - navigation.instant
+     # ページナビゲーションを折りたたみ可能なリンクで左側に配置します。
+     - navigation.expand
+     # トップへ戻るボタン
+     - navigation.top
+     # Code Annotate
+     - content.code.annotate
+     # Tab
+     - tabs
+     # Navigation Tabs
+     - navigation.tabs
+     # Back to top button
+     - navigation.top
 # Options
 #extra:
 #  palette:
@@ -16,8 +33,41 @@ theme: 'material'
 #    text: 'Roboto'
 #    code: 'Roboto Mono'
     
-#markdown_extensions:
+markdown_extensions:
+  - plantuml_markdown:
+      server: http://www.plantuml.com/plantuml
 #  - admonition
-#  - toc:
-#    permalink: '#'
-
+  # 目次
+  - toc:
+        permalink: true # 自動生成を有効にする
+        permalink_title: このセクションへのアンカーリンク
+        toc_depth: 3 # 見出しの深さ
+  - pymdownx.tabbed:
+        alternate_style: true
+  - mdx_truly_sane_lists:
+      nested_indent: 2
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  # コードハイライトの設定(インラインブロック版)
+  - pymdownx.inlinehilite
+  # アラート修飾(Note修飾)を有効化
+  - admonition
+  # コンテンツの折りたたみを有効化
+  - pymdownx.details
+  # 打ち消し線の追加
+  - pymdownx.tilde
+  # 注釈の追加
+  - footnotes
+  # 定義リスト
+  - def_list
+plugins:
+    # 検索ウィンドウ表示
+    - search: 
+          lang:
+              - ja
+              - en
+    # 最終更新日時表示
+    - git-revision-date-localized
