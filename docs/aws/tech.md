@@ -5,6 +5,9 @@
   * [AWS Dev Day Online Japan C-2: AWS CDKはどう使いこなすのか、初期開発から運用までのノウハウ](https://www.youtube.com/watch?v=xLrCEHEYcCM)
   * [AWS CDK Workshop](https://cdkworkshop.com/ja/)
   * [CDKで複数スタックの並行デプロイを行ってみた](https://dev.classmethod.jp/articles/cdk-concurrency-deployment/)
+    * `--concurrency 3` のように`cdk deploy`コマンドのオプション指定を行なう
+  * [CDKインポートの実力はどうなのか？　〜我々調査隊はアマゾンの奥地へと向かった〜](https://tech.nri-net.com/entry/how_about_cdk_import)
+  * [CDKを使って既存S3バケットのPUTイベントをトリガーにLambda関数を実行しようとしたらハマった話](https://dev.classmethod.jp/articles/cdk-s3notification-kick-lambda/)
 * S3
   * [LambdaがS3からGetObjectするのにかかる時間を計測してみた [追記, 修正あり]](https://dev.classmethod.jp/articles/mesure-download-time-of-get-object-from-s3-on-lambda/)
 
