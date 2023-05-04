@@ -16,6 +16,9 @@
   * CloudFront
     * [[AWS CDK] Lambda@Edge関数とCloudFront DistributionのConstructは別スタックに分ければ、関数削除時のデプロイが1度で済むのか試してみた](https://dev.classmethod.jp/articles/it-seems-better-to-divide-lambda-edgecloudfront-distribution-resources-into-separate-stacks/)
     * [[AWS CDK] Lambda@Edge関数の作成または更新時に自動的に最新バージョンを発行し、CloudFront Distributionに紐付ける](https://dev.classmethod.jp/articles/aws-cdk-i-tried-linking-lambda-edge-to-cloudfront-distribution/)
+    * [[AWS CDK] 同じApp Construct内で異なるリージョンのStackをデプロイできるのか試してみた](https://dev.classmethod.jp/articles/aws-cdk-to-see-if-stacks-in-different-regions-can-be-deployed-in-the-same-app-construct/)
+    * [AWS CDKで別リージョンに基本認証用Lambda@Edgeを作成するスタックをデプロイしてAmazon CloudFrontに設定する](https://tech.nri-net.com/entry/aws_cdk_cross_region_stack_deployment_lambda_edge)
+    * [AWS CDKで別リージョンにスタックをデプロイしてパラメータをリージョン間で受け渡す方法 －AWS CDKカスタムリソースの実装例](https://tech.nri-net.com/entry/aws_cdk_cross_region_stack_deployment_method)
   * CI/CD高速化
     * [AWS CDKによるデプロイ作業を高速にするには？](https://kakehashi-dev.hatenablog.com/entry/2021/10/05/080018)
     * [AWS CDKにLambda関数を数秒でデプロイするhotswap deployments機能が追加されました](https://zenn.dev/intercept6/articles/eed5b5cef89eb2)  
