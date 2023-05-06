@@ -14,17 +14,20 @@
   * [CDKインポートの実力はどうなのか？　〜我々調査隊はアマゾンの奥地へと向かった〜](https://tech.nri-net.com/entry/how_about_cdk_import)
   * [CDKを使って既存S3バケットのPUTイベントをトリガーにLambda関数を実行しようとしたらハマった話](https://dev.classmethod.jp/articles/cdk-s3notification-kick-lambda/)
   * CloudFront
-    * [[AWS CDK] Lambda@Edge関数とCloudFront DistributionのConstructは別スタックに分ければ、関数削除時のデプロイが1度で済むのか試してみた](https://dev.classmethod.jp/articles/it-seems-better-to-divide-lambda-edgecloudfront-distribution-resources-into-separate-stacks/)
-    * [[AWS CDK] Lambda@Edge関数の作成または更新時に自動的に最新バージョンを発行し、CloudFront Distributionに紐付ける](https://dev.classmethod.jp/articles/aws-cdk-i-tried-linking-lambda-edge-to-cloudfront-distribution/)
-    * [[AWS CDK] 同じApp Construct内で異なるリージョンのStackをデプロイできるのか試してみた](https://dev.classmethod.jp/articles/aws-cdk-to-see-if-stacks-in-different-regions-can-be-deployed-in-the-same-app-construct/)
-    * [AWS CDKで別リージョンに基本認証用Lambda@Edgeを作成するスタックをデプロイしてAmazon CloudFrontに設定する](https://tech.nri-net.com/entry/aws_cdk_cross_region_stack_deployment_lambda_edge)
-    * [AWS CDKで別リージョンにスタックをデプロイしてパラメータをリージョン間で受け渡す方法 －AWS CDKカスタムリソースの実装例](https://tech.nri-net.com/entry/aws_cdk_cross_region_stack_deployment_method)
-    * Cookie関連
+    * Lambda@Edge (この方法はアクセス毎にlambdaが実行され、認可処理が行われるのでイマイチ)
+      * [[AWS CDK] Lambda@Edge関数とCloudFront DistributionのConstructは別スタックに分ければ、関数削除時のデプロイが1度で済むのか試してみた](https://dev.classmethod.jp/articles/it-seems-better-to-divide-lambda-edgecloudfront-distribution-resources-into-separate-stacks/)
+      * [[AWS CDK] Lambda@Edge関数の作成または更新時に自動的に最新バージョンを発行し、CloudFront Distributionに紐付ける](https://dev.classmethod.jp/articles/aws-cdk-i-tried-linking-lambda-edge-to-cloudfront-distribution/)
+      * [[AWS CDK] 同じApp Construct内で異なるリージョンのStackをデプロイできるのか試してみた](https://dev.classmethod.jp/articles/aws-cdk-to-see-if-stacks-in-different-regions-can-be-deployed-in-the-same-app-construct/)
+      * [AWS CDKで別リージョンに基本認証用Lambda@Edgeを作成するスタックをデプロイしてAmazon CloudFrontに設定する](https://tech.nri-net.com/entry/aws_cdk_cross_region_stack_deployment_lambda_edge)
+      * [AWS CDKで別リージョンにスタックをデプロイしてパラメータをリージョン間で受け渡す方法 －AWS CDKカスタムリソースの実装例](https://tech.nri-net.com/entry/aws_cdk_cross_region_stack_deployment_method)
+    * 署名付きCookie関連 
       * [CloudFront+S3に対して自作システムにログインしないと配信・アクセスできないようにする。](https://www.pnkts.net/2018/06/11/s3-signed-cookies/)
         * Lambda@Edgeを使わずcookieで制御する
       * [CloudFrontの署名付きCookieでプライベートコンテンツの配信](https://dev.classmethod.jp/articles/cloudfront-signed-cookie/)
       * [署名付き Cookie を使用して HLS コンテンツを取得してみた](https://dev.classmethod.jp/articles/get-hls-using-signedcookie/)
       * [ふらっとAWS CloudFrontの署名付きCookieを使って認証画面を作った話](https://qiita.com/Kodak_tmo/items/ff656c4b18b59849c011)
+    * キャッシュ対策
+      * [S3にCloudFrontを通すことで月20万ぐらい節約した話](https://katsusand.dev/posts/aws-s3-to-cloudfront/)
   * CI/CD高速化
     * [AWS CDKによるデプロイ作業を高速にするには？](https://kakehashi-dev.hatenablog.com/entry/2021/10/05/080018)
     * [AWS CDKにLambda関数を数秒でデプロイするhotswap deployments機能が追加されました](https://zenn.dev/intercept6/articles/eed5b5cef89eb2)  
