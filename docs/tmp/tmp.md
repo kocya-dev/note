@@ -23,8 +23,11 @@ graph TD;
 ```
 
 ## Draw.io
-
+### サンプル1
 ![](sample.drawio.png)
+
+### サンプル2
+![](front_arch.drawio.png)
 
 ## mkdocsに必要なもの
 
