@@ -19,6 +19,12 @@
     * [[AWS CDK] 同じApp Construct内で異なるリージョンのStackをデプロイできるのか試してみた](https://dev.classmethod.jp/articles/aws-cdk-to-see-if-stacks-in-different-regions-can-be-deployed-in-the-same-app-construct/)
     * [AWS CDKで別リージョンに基本認証用Lambda@Edgeを作成するスタックをデプロイしてAmazon CloudFrontに設定する](https://tech.nri-net.com/entry/aws_cdk_cross_region_stack_deployment_lambda_edge)
     * [AWS CDKで別リージョンにスタックをデプロイしてパラメータをリージョン間で受け渡す方法 －AWS CDKカスタムリソースの実装例](https://tech.nri-net.com/entry/aws_cdk_cross_region_stack_deployment_method)
+    * Cookie関連
+      * [CloudFront+S3に対して自作システムにログインしないと配信・アクセスできないようにする。](https://www.pnkts.net/2018/06/11/s3-signed-cookies/)
+        * Lambda@Edgeを使わずcookieで制御する
+      * [CloudFrontの署名付きCookieでプライベートコンテンツの配信](https://dev.classmethod.jp/articles/cloudfront-signed-cookie/)
+      * [署名付き Cookie を使用して HLS コンテンツを取得してみた](https://dev.classmethod.jp/articles/get-hls-using-signedcookie/)
+      * [ふらっとAWS CloudFrontの署名付きCookieを使って認証画面を作った話](https://qiita.com/Kodak_tmo/items/ff656c4b18b59849c011)
   * CI/CD高速化
     * [AWS CDKによるデプロイ作業を高速にするには？](https://kakehashi-dev.hatenablog.com/entry/2021/10/05/080018)
     * [AWS CDKにLambda関数を数秒でデプロイするhotswap deployments機能が追加されました](https://zenn.dev/intercept6/articles/eed5b5cef89eb2)  
