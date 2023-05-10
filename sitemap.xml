@@ -2,102 +2,102 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>http://test/</loc>
-         <lastmod>2023-05-06</lastmod>
+         <lastmod>2023-05-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://test/aws/cognito/</loc>
-         <lastmod>2023-05-06</lastmod>
+         <lastmod>2023-05-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://test/aws/tech/</loc>
-         <lastmod>2023-05-06</lastmod>
+         <lastmod>2023-05-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://test/process/scrum/</loc>
-         <lastmod>2023-05-06</lastmod>
+         <lastmod>2023-05-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://test/tech/book/</loc>
-         <lastmod>2023-05-06</lastmod>
+         <lastmod>2023-05-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://test/tech/container/</loc>
-         <lastmod>2023-05-06</lastmod>
+         <lastmod>2023-05-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://test/tech/etc/</loc>
-         <lastmod>2023-05-06</lastmod>
+         <lastmod>2023-05-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://test/tech/refactor/</loc>
-         <lastmod>2023-05-06</lastmod>
+         <lastmod>2023-05-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://test/tech/roadmap/</loc>
-         <lastmod>2023-05-06</lastmod>
+         <lastmod>2023-05-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://test/tech/test/</loc>
-         <lastmod>2023-05-06</lastmod>
+         <lastmod>2023-05-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://test/tmp/tmp/</loc>
-         <lastmod>2023-05-06</lastmod>
+         <lastmod>2023-05-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://test/web/basic/</loc>
-         <lastmod>2023-05-06</lastmod>
+         <lastmod>2023-05-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://test/web/playwright/</loc>
-         <lastmod>2023-05-06</lastmod>
+         <lastmod>2023-05-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://test/web/react/</loc>
-         <lastmod>2023-05-06</lastmod>
+         <lastmod>2023-05-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://test/web/summary/</loc>
-         <lastmod>2023-05-06</lastmod>
+         <lastmod>2023-05-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://test/web/typescript/</loc>
-         <lastmod>2023-05-06</lastmod>
+         <lastmod>2023-05-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://test/web/vite/</loc>
-         <lastmod>2023-05-06</lastmod>
+         <lastmod>2023-05-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://test/web/vue/</loc>
-         <lastmod>2023-05-06</lastmod>
+         <lastmod>2023-05-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://test/web/webpack/</loc>
-         <lastmod>2023-05-06</lastmod>
+         <lastmod>2023-05-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://test/windows/wsl/</loc>
-         <lastmod>2023-05-06</lastmod>
+         <lastmod>2023-05-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
