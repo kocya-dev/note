@@ -26,6 +26,7 @@
       * [CloudFrontの署名付きCookieでプライベートコンテンツの配信](https://dev.classmethod.jp/articles/cloudfront-signed-cookie/)
       * [署名付き Cookie を使用して HLS コンテンツを取得してみた](https://dev.classmethod.jp/articles/get-hls-using-signedcookie/)
       * [ふらっとAWS CloudFrontの署名付きCookieを使って認証画面を作った話](https://qiita.com/Kodak_tmo/items/ff656c4b18b59849c011)
+      * [AWS CDKでリソース作成 第9回: CloudFront編](https://tech.excite.co.jp/entry/2022/12/06/125603)
     * キャッシュ対策
       * [S3にCloudFrontを通すことで月20万ぐらい節約した話](https://katsusand.dev/posts/aws-s3-to-cloudfront/)
   * CI/CD高速化

@@ -26,3 +26,7 @@
   * [【徹底解説】これからのエンジニアの必携スキル、プロンプトエンジニアリングの手引「Prompt Engineering Guide」を読んでまとめてみた](https://dev.classmethod.jp/articles/how-to-design-prompt-engineering/)
 * セキュリティ
   * [パブリッククラウド特有の脅威の向き合い方](https://speakerdeck.com/lhazy/paburitukukuraudote-you-noxie-wei-noxiang-kihe-ifang)
+* フロントエンド
+  * [Reactベストプラクティスの宝庫！「bulletproof-react」が勉強になりすぎる件](https://zenn.dev/manalink_dev/articles/bulletproof-react-is-best-architecture)
+  * [本気で考えるReactのベストプラクティス！bulletproof-react2022]](https://zenn.dev/t_keshi/articles/bulletproof-react-2022)
+  * [SPA Componentの推しディレクトリ構成について語る](https://zenn.dev/yoshiko/articles/99f8047555f700)
