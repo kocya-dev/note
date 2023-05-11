@@ -42,6 +42,9 @@
 * Cloudwatch
   * [AWS Lambdaのログまわりに関すること まとめ](https://dev.classmethod.jp/articles/lambda-and-cloudwatch/#toc-1)
   * [awslogsでEC2のログをCloudWatch連携する方法](https://colsis.jp/blog/awslogs/)
+* ECS/Fargate
+  * [AWS CDKでECS on FargateのCI/CDを実現する際の理想と現実 | AWS Dev Day 2022 Japan](https://www.youtube.com/watch?v=fvZGIcf6xKU)
+  * [AWS CDKにECSを高速でデプロイするhotswap deployments機能が追加されました](https://zenn.dev/intercept6/articles/ed2dfded5aae03)
 * 他
   * [Cognito+API Gateway+S3ホスティングでサーバレスアプリを構築する | AWSチュートリアル](https://www.bioerrorlog.work/entry/aws-serverless-tutorial)
   * [マルチアカウント環境のリソースを可視化。「Workload Discovery on AWS」を試してみる](https://aws.amazon.com/jp/builders-flash/202209/workload-discovery-on-aws/?awsf.filter-name=*all)
