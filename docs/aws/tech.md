@@ -39,6 +39,9 @@
 * S3
   * [LambdaがS3からGetObjectするのにかかる時間を計測してみた [追記, 修正あり]](https://dev.classmethod.jp/articles/mesure-download-time-of-get-object-from-s3-on-lambda/)
 
+* Cloudwatch
+  * [AWS Lambdaのログまわりに関すること まとめ](https://dev.classmethod.jp/articles/lambda-and-cloudwatch/#toc-1)
+  * [awslogsでEC2のログをCloudWatch連携する方法](https://colsis.jp/blog/awslogs/)
 * 他
   * [Cognito+API Gateway+S3ホスティングでサーバレスアプリを構築する | AWSチュートリアル](https://www.bioerrorlog.work/entry/aws-serverless-tutorial)
   * [マルチアカウント環境のリソースを可視化。「Workload Discovery on AWS」を試してみる](https://aws.amazon.com/jp/builders-flash/202209/workload-discovery-on-aws/?awsf.filter-name=*all)
