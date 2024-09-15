@@ -8,6 +8,12 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    services:
+      db:
+        # PostgresのDocker imageを使用
+        image: plantuml/plantuml-server
+        ports:
+          - '8080:8080'
     steps:
       - name: checkout branch 
         uses: actions/checkout@v3
