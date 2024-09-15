@@ -34,9 +34,9 @@ theme:
 #    code: 'Roboto Mono'
     
 markdown_extensions:
-#  - plantuml_markdown:
-#      server: http://www.plantuml.com/plantuml
-#  - admonition
+  - plantuml_markdown:
+      server: http://127.0.0.1:8080
+  - admonition
   # 目次
   - toc:
         permalink: true # 自動生成を有効にする
@@ -71,6 +71,6 @@ plugins:
               - en
     # 最終更新日時表示
     - git-revision-date-localized
-    - plantuml:
-        puml_url: http://127.0.0.1:8080
-        num_workers: 8
+#    - plantuml:
+#        puml_url: http://127.0.0.1:8080
+#        num_workers: 8
