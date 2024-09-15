@@ -35,7 +35,7 @@ jobs:
         uses: actions/setup-python@v3
         with:
           python-version: '3.8'
-          cache: 'pip'
+          #cache: 'pip'
       - name: install dependencies
         run: |
           python -m pip install --upgrade pip
@@ -47,7 +47,8 @@ jobs:
           pip install mkdocs-git-revision-date-plugin
           pip install mkdocs-git-revision-date-localized-plugin
           pip install mdx_truly_sane_lists
-
+      - name: check packages
+        run: pip freeze
       - name: mkdocs build
         run: |
            mkdocs build --verbose --clean --strict
