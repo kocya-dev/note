@@ -1,0 +1,6 @@
+{
+  "homepage": "https://kocya-dev.github.io/note",
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
+  }
+}

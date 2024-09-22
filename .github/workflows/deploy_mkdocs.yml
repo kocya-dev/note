@@ -16,7 +16,7 @@ jobs:
           - "8080:8080"
     steps:
       - name: checkout branch
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
@@ -32,7 +32,7 @@ jobs:
 
       # mkdocsを利用するためのpython環境のsetupを行う
       - name: setup python env
-        uses: actions/setup-python@v3
+        uses: actions/setup-python@v5
         with:
           python-version: "3.8"
           cache: "pip"
@@ -42,21 +42,34 @@ jobs:
           pip install -r requirements.txt
       - name: check packages
         run: pip freeze
+      - name: setup node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+      - name: install dependencies (node)
+        run: npm ci
+
       - name: mkdocs build
         run: |
           mkdocs build --verbose --clean --strict
+      - name: deploy - 1
+        run: npx gh-pages -d site
+      - name: deploy - 2
+        run: npx gh-pages -d sample -e subdir
+#      - name: mkdocs deploy - 1
+#        uses: peaceiris/actions-gh-pages@v4
+#        with:
+#          github_token: ${{ secrets.GITHUB_TOKEN }}
+#          publish_dir: site
+### subdirのために2つのactions-gh-pagesを起動すると重複して選考ワークフローがキャンセルされる
+#     - name: mkdocs deploy - 2
+#       uses: peaceiris/actions-gh-pages@v4
+#       with:
+#         github_token: ${{ secrets.GITHUB_TOKEN }}
+#         publish_dir: sample
+#         destination_dir: subdir
 
-      - name: mkdocs deploy - 1
-        uses: peaceiris/actions-gh-pages@v4
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: site
-      - name: mkdocs deploy - 2
-        uses: peaceiris/actions-gh-pages@v4
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: sample
-          destination_dir: subdir
 #      - name: upload contents
 #        uses: actions/upload-pages-artifact@v3
 #        with:
