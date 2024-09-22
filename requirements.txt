@@ -1,0 +1,7 @@
+plantuml-markdown
+mkdocs
+mkdocs-material
+mkdocs-drawio-exporter
+mkdocs-git-revision-date-plugin
+mkdocs-git-revision-date-localized-plugin
+mdx_truly_sane_lists

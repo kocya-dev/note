@@ -35,17 +35,11 @@ jobs:
         uses: actions/setup-python@v3
         with:
           python-version: "3.8"
-          #cache: 'pip'
+          cache: "pip"
       - name: install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install plantuml-markdown
-          pip install mkdocs
-          pip install mkdocs-material
-          pip install mkdocs-drawio-exporter
-          pip install mkdocs-git-revision-date-plugin
-          pip install mkdocs-git-revision-date-localized-plugin
-          pip install mdx_truly_sane_lists
+          pip install -r requirements.txt
       - name: check packages
         run: pip freeze
       - name: mkdocs build
