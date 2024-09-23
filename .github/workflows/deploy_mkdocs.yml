@@ -14,6 +14,9 @@ jobs:
         image: plantuml/plantuml-server
         ports:
           - "8080:8080"
+    permissions:
+      pages: write
+      id-token: write
     steps:
       - name: checkout branch
         uses: actions/checkout@v4
