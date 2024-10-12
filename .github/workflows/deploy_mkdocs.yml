@@ -19,7 +19,7 @@ jobs:
       pages: write
       id-token: write
     steps:
-      - name: checkout branch
+      - name: checkout branch 日本語つかえる？
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
