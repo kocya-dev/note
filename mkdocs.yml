@@ -34,8 +34,8 @@ theme:
 #    code: 'Roboto Mono'
     
 markdown_extensions:
-  - plantuml_markdown:
-      server: http://127.0.0.1:8080
+  # - plantuml_markdown:
+  #    server: http://127.0.0.1:8080
   - admonition
   # 目次
   - toc:

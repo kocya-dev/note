@@ -1,6 +1,6 @@
 plantuml-markdown
 mkdocs
-mkdocs-material
+mkdocs-material>=8.2.0
 mkdocs-drawio-exporter
 mkdocs-git-revision-date-plugin
 mkdocs-git-revision-date-localized-plugin
