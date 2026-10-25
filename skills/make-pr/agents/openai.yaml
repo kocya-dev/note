@@ -1,0 +1,3 @@
+interface:
+  display_name: "Make PR"
+  short_description: "Create a PR from origin/main changes with the repo template"
