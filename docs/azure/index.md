@@ -31,6 +31,8 @@ Webアプリケーション開発を主軸に、**SoR（Systems of Record）/ So
    - セキュリティ（Defender / Sentinel / Key Vault）、監視（Azure Monitor / Application Insights）、IaC（Bicep / Terraform）
 7. **[Azure Bicep 学習資料](./bicep/index.md)**
    - 導入・インストール、基本構文、ビルド・検証、デプロイ方法（What-If / デプロイ スタック）、GitHub Actions 連携、注意事項
+8. **[Static Web Apps を使った開発標準プロセス](./static-web-apps/index.md)**
+   - アーキテクチャ、ローカル開発、CI/CD、Bicep による環境構築、運用 Tips
 
 ---
 
