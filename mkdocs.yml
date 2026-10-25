@@ -1,12 +1,13 @@
 site_name: test doc name
 site_description: 'サイトの紹介'
-site_url: 'http://test'
+site_url: 'https://kocya-dev.github.io/note/'
 
 copyright: 'Copyright (c) 2023'
 
 docs_dir: docs
-theme: 
-  name: 'material'
+theme:
+  variant: classic
+  language: ja
   features:
      # Anchor tracking
      - navigation.tracking
@@ -22,8 +23,6 @@ theme:
      - tabs
      # Navigation Tabs
      - navigation.tabs
-     # Back to top button
-     - navigation.top
 # Options
 #extra:
 #  palette:
@@ -53,8 +52,6 @@ markdown_extensions:
           format: !!python/name:pymdownx.superfences.fence_code_format
   # コードハイライトの設定(インラインブロック版)
   - pymdownx.inlinehilite
-  # アラート修飾(Note修飾)を有効化
-  - admonition
   # コンテンツの折りたたみを有効化
   - pymdownx.details
   # 打ち消し線の追加
@@ -63,14 +60,3 @@ markdown_extensions:
   - footnotes
   # 定義リスト
   - def_list
-plugins:
-    # 検索ウィンドウ表示
-    - search: 
-          lang:
-              - ja
-              - en
-    # 最終更新日時表示
-    - git-revision-date-localized
-#    - plantuml:
-#        puml_url: http://127.0.0.1:8080
-#        num_workers: 8

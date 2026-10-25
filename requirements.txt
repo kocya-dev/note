@@ -1,7 +1,2 @@
-plantuml-markdown
-mkdocs
-mkdocs-material>=8.2.0
-mkdocs-drawio-exporter
-mkdocs-git-revision-date-plugin
-mkdocs-git-revision-date-localized-plugin
+zensical>=0.0.72
 mdx_truly_sane_lists
