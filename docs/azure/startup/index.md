@@ -131,6 +131,21 @@ Azure Entra ID にアプリを登録し、GitHub Actions の OIDC を利用し�
 
     GitHub Actions では OIDC を使うため、通常は `azure/login` アクションにこれらの値を渡す。
 
-12. デプロイの確認
+12. リソースプロバイダーの登録あ
+    - `サブスクリプション` を選択し、対象のサブスクリプションをクリックします。
+    - 左側メニューの [リソース プロバイダー] をクリックします。
+    - 一覧から Microsoft.Web を検索して選択し、上部の [登録] をクリックします。
+
+以下コマンドでも可能
+
+```bash
+# 登録状態の確認
+az provider show --namespace Microsoft.Web --query "registrationState"
+
+# Microsoft.Web の登録
+az provider register --namespace Microsoft.Web
+```
+
+13. デプロイの確認
     GitHub Actions が実行されると、`azure/login` と `az account show` などで Azure に接続できることを確認する。
     ここで `subject` とリポジトリ名、ブランチ名の一致がずれていると認証に失敗するため注意する。
