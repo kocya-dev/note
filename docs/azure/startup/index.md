@@ -149,3 +149,10 @@ az provider register --namespace Microsoft.Web
 13. デプロイの確認
     GitHub Actions が実行されると、`azure/login` と `az account show` などで Azure に接続できることを確認する。
     ここで `subject` とリポジトリ名、ブランチ名の一致がずれていると認証に失敗するため注意する。
+
+14. フロントエンドやAPIのトークンの設定
+
+`Static Web Apps` の`概要` から`デプロイトークンの管理` をクリックし、API トークンを取得する
+
+AZURE_RESOURCE_GROUP=<リソースグループ名>
+AZURE_STATIC_WEB_APPS_API_TOKEN=<APIトークン>
