@@ -105,9 +105,9 @@ Azure Entra ID にアプリを登録し、GitHub Actions の OIDC を利用し�
 }
 ```
 
-- `issuer` は GitHub Actions の OIDC 発行元
-- `audiences` は Azure で定められた既定値
-- `subject` は GitHub の `owner/repo:ref:refs/heads/<branch>` を厳密に一致させる
+    - `issuer` は GitHub Actions の OIDC 発行元
+    - `audiences` は Azure で定められた既定値
+    - `subject` は GitHub の `owner/repo:ref:refs/heads/<branch>` を厳密に一致させる
 
 10. フェデレーション用 JSON を Azure に登録する
 
@@ -131,7 +131,7 @@ Azure Entra ID にアプリを登録し、GitHub Actions の OIDC を利用し�
 
     GitHub Actions では OIDC を使うため、通常は `azure/login` アクションにこれらの値を渡す。
 
-12. リソースプロバイダーの登録あ
+12. リソースプロバイダーの登録
     - `サブスクリプション` を選択し、対象のサブスクリプションをクリックします。
     - 左側メニューの [リソース プロバイダー] をクリックします。
     - 一覧から Microsoft.Web を検索して選択し、上部の [登録] をクリックします。
@@ -146,16 +146,18 @@ az provider show --namespace Microsoft.Web --query "registrationState"
 az provider register --namespace Microsoft.Web
 ```
 
-13. デプロイの確認
+13. デプロイの確認  
     GitHub Actions が実行されると、`azure/login` と `az account show` などで Azure に接続できることを確認する。
     ここで `subject` とリポジトリ名、ブランチ名の一致がずれていると認証に失敗するため注意する。
 
 14. フロントエンドやAPIのトークンの設定
 
-`Static Web Apps` の`概要` から`デプロイトークンの管理` をクリックし、API トークンを取得する
+    `Static Web Apps` の`概要` から`デプロイトークンの管理` をクリックし、API トークンを取得する
 
-AZURE_RESOURCE_GROUP=<リソースグループ名>
-AZURE_STATIC_WEB_APPS_API_TOKEN=<APIトークン>
+    ```
+    AZURE_RESOURCE_GROUP=<リソースグループ名>
+    AZURE_STATIC_WEB_APPS_API_TOKEN=<APIトークン>
+    ```
 
 ## ブランチプレビュー機能
 
