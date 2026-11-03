@@ -156,3 +156,35 @@ az provider register --namespace Microsoft.Web
 
 AZURE_RESOURCE_GROUP=<リソースグループ名>
 AZURE_STATIC_WEB_APPS_API_TOKEN=<APIトークン>
+
+## ブランチプレビュー機能
+
+カスタムアクション `Azure/static-web-apps-deploy` をPRトリガーで実行し、デプロイすると、下記ログに示すようにブランチプレビュー用の URL が発行される。
+
+```
+---End of Oryx build logs---
+Function Runtime Information. OS: linux, Functions Runtime: ~4, node version: 20
+Finished building function app with Oryx
+Zipping Api Artifacts
+Done Zipping Api Artifacts
+Zipping App Artifacts
+Done Zipping App Artifacts
+Uploading build artifacts.
+Finished Upload. Polling on deployment.
+Status: InProgress. Time: 0.4647353(s)
+Status: Succeeded. Time: 15.8861404(s)
+Deployment Complete :)
+Visit your site at: <プレビュー用URL>
+Thanks for using Azure Static Web Apps!
+Exiting
+```
+
+## ログ確認
+
+- `Application Insight` > `調査` > `検索` でログを確認することができる。
+- `Application Insight` >　`調査` > `ライブ メトリック`でリアルタイムログを確認することができる。
+
+> [!TODO]
+> AI関連のサービスとの連携
+> フロントエンドのデプロイ
+> DB操作(特にCosmos DB)との操作方法とテーブル定義や確認方法
