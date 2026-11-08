@@ -143,7 +143,7 @@ Azure Entra ID にアプリを登録し、GitHub Actions の OIDC を利用し�
     - `サブスクリプション` を選択し、対象のサブスクリプションをクリックします。
     - 左側メニューの [リソース プロバイダー] をクリックします。
     - 一覧から Microsoft.Web を検索して選択し、上部の [登録] をクリックします。
-    - この他 VNet=Microsoft.Network', Blob='Microsoft.Storage', CosmosDB='Microsoft.DocumentDB なども登録します。
+    - この他 VNet=Microsoft.Network', Blob='Microsoft.Storage', CosmosDB='Microsoft.DocumentDB', Functions='Microsoft.App' なども登録します。
 
 以下コマンドでも可能
 
