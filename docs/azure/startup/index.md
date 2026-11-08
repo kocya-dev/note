@@ -80,8 +80,16 @@ Azure Entra ID にアプリを登録し、GitHub Actions の OIDC を利用し�
      --assignee-principal-type ServicePrincipal
    ```
 
+   ```bash
+   az role assignment create \
+     --role "Role Based Access Control Administrator" \
+     --scope "/subscriptions/$subscriptionId/resourceGroups/$resourceGroupName" \
+     --assignee-object-id $assigneeObjectId \
+     --assignee-principal-type ServicePrincipal
+   ```
+
    - Web 画面からアプリを登録した場合は、既にロールが割り当てられていることがある
-   - 実際のデプロイ先に応じて `Contributor` 以外の権限が必要になる場合がある
+   - 実際のデプロイ先に応じて `Contributor` 以外の権限が必要になる場合がある。ロール割り当て権限が必要な場合は`Role Based Access Control Administrator`を指定する。
 
 8. フェデレーション用の対象情報を整理する
    GitHub Actions の OIDC では、`subject` は GitHub リポジトリとブランチを一致させる必要がある。代表的な形式は次のとおり。
@@ -135,6 +143,7 @@ Azure Entra ID にアプリを登録し、GitHub Actions の OIDC を利用し�
     - `サブスクリプション` を選択し、対象のサブスクリプションをクリックします。
     - 左側メニューの [リソース プロバイダー] をクリックします。
     - 一覧から Microsoft.Web を検索して選択し、上部の [登録] をクリックします。
+    - この他 VNet=Microsoft.Network', Blob='Microsoft.Storage', CosmosDB='Microsoft.DocumentDB なども登録します。
 
 以下コマンドでも可能
 
