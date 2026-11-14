@@ -206,3 +206,5 @@ Exiting
 1. Microsoft Foundaryから`Create a foundary resource`を選択し、必要な情報を入力してリソースを作成する。
 2. 作成したリソースの概要を選択し、Foundaryポータルに遷移する
 3. 任意のモデルをデプロイする。無料枠の場合は、gpt-5-mini/global standardが利用可能。
+
+シンプルな利用方法として、FoundaryポータルからAPIキーを取得し、アプリケーションから利用する。
