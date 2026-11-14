@@ -200,3 +200,9 @@ Exiting
 > フロントエンドのデプロイ
 > DB操作(特にCosmos DB)との操作方法とテーブル定義や確認方法
 > 認証方法とその設定
+
+## Microsoft Foundary
+
+1. Microsoft Foundaryから`Create a foundary resource`を選択し、必要な情報を入力してリソースを作成する。
+2. 作成したリソースの概要を選択し、Foundaryポータルに遷移する
+3. 任意のモデルをデプロイする。無料枠の場合は、gpt-5-mini/global standardが利用可能。
